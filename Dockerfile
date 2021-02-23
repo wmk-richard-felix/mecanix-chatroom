@@ -4,7 +4,7 @@ RUN node --version
 
 RUN git clone https://github.com/wmk-richard-felix/mecanix-chatroom.git
 
-WORKDIR /chatroom
+WORKDIR /mecanix-chatroom
 
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
 RUN yarn
